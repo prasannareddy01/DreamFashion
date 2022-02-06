@@ -1,0 +1,18 @@
+h1{
+    border: 8px dashed crimson;
+    background-color: darkcyan;
+    color: rgb(155, 252, 0);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.card{
+    margin-right: 20px;
+    width: 100%;
+}
+.carousel-inner{
+    border: 8px solid yellow;
+}
+.card:hover{
+ transform:translateY(10px);
+}

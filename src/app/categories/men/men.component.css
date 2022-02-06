@@ -1,0 +1,21 @@
+
+.fas
+{
+    margin-left: 20px;
+}
+.card text
+{
+    word-spacing: 2px;
+    font-weight: bold;
+    
+}
+.btn{
+    background-color: rgb(150, 6, 78);
+}
+button{
+    background-color: rgb(6, 150, 49);
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}

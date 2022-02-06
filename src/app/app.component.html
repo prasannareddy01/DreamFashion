@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <h1 id="h1">DREAM FASHION</h1>
+<nav class="navbar navbar-expand-sm ">
+  <!-- Brand -->
+  <!-- <a class="navbar-brand" routerLink="/home"><img src="assets/images/DFlogo.png" alt="Logo" style="width:40px;"></a> -->
+   <h4><span style="color: rgb(226, 67, 133);font-weight: bold;">D</span><span style="color:rgb(58, 73, 209);font-weight:bold;"> F</span></h4>
+  <!-- Links -->
+  
+  <ul class="navbar-nav">
+    <i class="fas fa-home"></i> <li class="nav-item">
+      <a class="nav-link" routerLink="/home">HOME</a>
+    </li>
+    <i class="fas fa-store"></i><li class="nav-item">
+      <a class="nav-link" routerLink="/products">PRODUCTS</a>
+    </li>   
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" routerLink="/categories" id="navbardrop" data-toggle="dropdown">
+        CATEGORIES
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="/categories/men">MEN</a>
+        <a class="dropdown-item" routerLink="/categories/women">WOMEN</a>
+        <a class="dropdown-item" routerLink="/categories/kids">KIDS</a>
+      </div>
+    </li>
+    <i class="fas fa-shopping-bag"></i><li class="nav-item">
+      <a class="nav-link" routerLink="/bag">BAG</a>
+    </li>
+    </ul>
+    <form class="form-inline" >
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+    <ul class="nav navbar-nav navbar-right ml-auto">
+      <i class="far fa-id-card"></i><li class="nav-item">
+        <a class="nav-link" routerLink="/contactus">CONTACTUS</a>
+      </li>       <i class="fas fa-user"></i>
+    <li class="nav-item">
+ <a class="nav-link" routerLink="/account">ACCOUNT</a>
+    </li>
+  
+  </ul>
+
+</nav>
+
+<!-- <app-home></app-home> -->
+<router-outlet></router-outlet>
+<!-- *********************************************************************************** -->
+<app-footer></app-footer>
+</body>
+</html>

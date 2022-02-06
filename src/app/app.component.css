@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:thistle;
+}
+#h1{
+    text-align: center;
+    color: crimson;
+    background-color: rgb(46, 214, 46);
+    font-weight: bold;
+
+}
+h4{
+    font-size: 30px;
+    border: 5px dotted rgb(216, 219, 25);
+    margin-right: 20px;
+}
+.nav-item .nav-link
+{
+    color: rgb(24, 138, 9);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 10px;
+
+
+}
+.nav-item :hover{
+color:white;
+background-color: rgb(14, 119, 79);
+}
+.navbar{
+    background-color: rgb(100, 19, 64);
+}
+
+.fas {
+    color: rgb(229, 233, 30);
+    padding-top: 20px;
+}
+.far{
+    color: rgb(229, 233, 30);
+    padding-top: 20px;
+  
+}
+
+
+
+
+
+
